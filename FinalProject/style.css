@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.top{
+    background: rgba(78, 132, 78, 0.817);
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar{
+    display: flex;
+    align-items:center;
+    padding: 15px;
+
+}
+.navbar a:hover{
+    background-color: rgb(165, 247, 165);
+
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+ }
+
+
+ a{
+    text-decoration: none;
+    color: darkgreen;
+ }
+ 
+ p{
+    color: rgb(0,0,0);
+ }
+
+ .pop{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+
+ .up{
+    flex-basis: 50%;
+    min-width: 300px;
+
+ }
+
+ 
+ .up h1{
+    font-size: 40px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: rgb(15, 82, 26);
+ }
+
+ .abc{
+    display: inline-block;
+    background:#433c1b;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+ }
+
+.types{
+    margin: 70px 0;
+}
+
+.down{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.down img{
+    width: 100%;
+}
+
+.lily{
+    max-width:1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.footer{
+    background-color: rgb(69, 34, 34);
+    font-size: 14px;
+    padding: 60px 0 20px;
+    color:aliceblue;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.about{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hop{
+    flex-basis: 31%;
+    background:beige;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+ 
+h2{
+    text-align: center;
+    font-weight: 600;
+    max-width: 10px 0;
+}
+
+.hop:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+
+
+items {
+    flex: 1;
+    margin: 5px;
+    font-size: 12px; /* Reduced font size /
+
+}
+
+.items h1, .items h3 {
+    margin: 5px 0; / Reduced margins for headings */
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    margin-bottom: 5px;
+}
+
+.choose h1{
+    font-size: 40px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: rgb(7, 29, 10);
+}
+
+.choose p{
+    font-size: 20px;
+    line-height:25px ;
+}
+
+
+
+#form{
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    font-size: 12px;
+
+}
+#form button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: rgb(11, 8, 6);
+    border: none;
+    border-radius: 4px;
+}
+
+
+
